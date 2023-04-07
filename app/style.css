@@ -1,0 +1,183 @@
+/* a minimalist set of CSS resets */
+/* @import url("https://fonts.google.com/css?family=Dosis&display=swap"); */
+/* default to border-box */
+/* html {
+  box-sizing: border-box;
+  font-size: 16px;
+} */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+
+/* adjust typography defaults */
+body {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+/*   margin: 1rem; */
+
+/*   border:5px solid black; */
+/*   padding:0em; */
+  font-family: 'Poppins', sans-serif; 
+  line-height: 1;
+}
+
+/* mycanvas2 {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+} */
+
+
+/* images and videos max out at full width */
+/* img,
+video {
+  height: auto;
+  max-width: 100%;
+  border:2px solid gray;
+  border-radius:3em;
+  margin-top:1em;
+  margin-left:1em;
+  margin-bottom:1em;
+  box-shadow:1em 1em 2em;
+} */
+
+
+/* @keyframes bgAnimation{
+  0%{
+    webkit-filter:hue-rotate(0deg);
+    filter:hue-rotate(0deg);
+  } */
+/*   100%{
+    webkit-filter:hue-rotate(360deg);
+    filter:hue-rotate(360deg);
+  } */
+  
+
+
+/* h1{ */
+/*   display:flex; */
+  
+/*   background:#ff00ff;
+  background:linear-gradient(30deg,cyan,white); */
+/*   font-color:white; */
+/*   border-radius:0.5em; */
+/*   padding-left:1em; */
+/*   padding-right:1em; */
+/*   width:100%;
+  color:black;
+  box-shadow:.25em .25em .25em;
+  justify-content:center; */
+/*   
+  animation-name:bgAnimation;
+  animation-duration:4s;
+  animation-iteration-count:infinite; */
+  
+  
+  
+/* } */
+
+button{
+  background:none;
+/*   background:white; */
+  margin:0.5em;
+  padding:0.5em;
+  border:none;
+  font-family: 'Poppins', sans-serif; 
+  border-radius:0.25em;
+/*   box-shadow:.25em .25em .25em .1em; */
+  
+  
+}
+/* different styles for buttoms */
+/* .mybutton{
+  background:linear-gradient(30deg,cyan,magenta);
+  box-shadow:.25em .25em .25em;
+}
+
+#button3{
+  background:linear-gradient(30deg,magenta,cyan);
+  box-shadow:.25em .25em .25em;
+} */
+
+
+
+
+.app{
+  background:none;
+  margin-top:0em;
+  width:100vw;
+  height:100vh;
+}
+
+.appMenu{
+border:px solid black;
+display:flex;
+justify-content:center;
+/* align-items:center; */
+}
+
+canvas{
+  width:100vw;
+  height:100vh;
+  border:none;
+  background:white;
+  outline:none;
+}
+
+#console{
+  position:absolute;
+  left:2em
+/*   z-index:2; */
+}
+
+
+/* .mainMenue{
+/*   background-color:red */
+/*   display:flex; */
+/*   justify-content:center; */
+/*   flex-direction:column; */
+/* } */ 
+.mainMenue a{
+/*   width: 10px;
+  height: 10px; */
+  font-size:1.5vmax;
+  size:15em;
+  text-decoration:none; 
+  margin:0.75em; 
+  font-family: 'Poppins', sans-serif; 
+  color:white;
+  text-shadow:0 0 0.25em currentColor;
+  transition:color 0.5s,font-size 0.5s,font-weight 0.5s;
+/*   transition:  1s, height 1s; */
+}
+
+.mainMenue a:hover{
+/*   color:gray; */
+/*   width:20px;
+  height:20px; */
+  font-size:3vmax;
+  color:#ffffffff;
+  text-shadow:0 0 10px #ffffffff,
+              0 0 20px #ffffffff,
+              0 0 40px #ffffffff,
+              0 0 80px #ffffffff,
+              0 0 120px #ffffffff;
+}
+ .mainMenue{
+  z-index:1;
+   background:none; 
+/*   background:white;  */
+  margin:1em; 
+  padding:0.5em; 
+  border:none; 
+  font-family: 'Poppins', sans-serif; 
+  border-radius:0.25em; 
+ }   

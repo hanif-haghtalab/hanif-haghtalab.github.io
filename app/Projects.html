@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="https://cdn.glitch.global/ad124ed0-c23e-477a-8c0a-281b186122df/logo-2.png?v=1642415722781">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!--     font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="/projectStyle.css" />
+
+   
+    
+<!--     <script src="https://cdn.jsdelivr.net/npm/gsap@3.7.1/dist/gsap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/stats-js@1.0.1/src/Stats.js"></script>
+    <script src="https://rawgit.com/jeromeetienne/threex.domevents/master/examples/vendor/three.js/build/three.min.js"></script>
+    <script src="https://rawgit.com/jeromeetienne/threex.domevents/master/examples/vendor/three.js/examples/js/Projector.js"></script>
+    <script src="https://rawgit.com/jeromeetienne/threex.domevents/master/threex.domevents.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    
+   
+
+    
+   
+    <!--     SurfaceSampler -->
+<!--    <script src="<script src="https://cdn.jsdelivr.net/npm/three@0.119.1/examples/jsm/math/MeshSurfaceSampler.js"></script>  -->
+     
+    
+    <div class="mainMenue">
+      <a href="index.html">
+<!--         <button type="button" id="homeButtun" class="main">Home</button> -->
+        HOME
+      </a>
+      
+      <a href="Projects.html">
+<!--         <button type="button" id="ProjectsButton1" class="main">Projects</button> -->
+        PROJECTS
+      </a>
+      
+      <a href="About.html">
+<!--         <button type="button" id="homeButton2" class="main">About</button> -->
+        ABOUT
+      </a>
+      
+    </div>
+    
+  </head>
+
+  <body>
+    
+   
+      
+  
+    <div class="progress-bar-container">
+      <label for="progress-bar">LOADING...</label>
+      <progress id="progress-bar" value="0" max ="100"></progress>
+    </div>
+    
+     <div class="dis">
+    
+<!--     <div class="progress-bar-container"> -->
+<!--     <div class="progress-bar-container">
+      <label for="progress-bar">LOADING...</label>
+      <progress id="progress-bar" value="0" max="100"></progress>
+    </div> -->
+    
+    
+    <canvas id="myCanvas"></canvas>
+  
+   
+    <div class="loading-bar"></div>
+    <main>
+     
+      
+      <section0 id="loading-screen">
+
+	    <div id="loader"></div>
+
+      </section0>
+  
+      
+<video 
+       id="video" 
+       loop,
+       autoplay,
+       crossorigin="anonymous" 
+       style="display: none; position: absolute; left: 15px; top: 75px;"
+       type="video/mp4"
+       src="https://cdn.glitch.global/27250f9d-a482-44b7-a7a8-c8db2d5100a1/DigiMirrorLow.mp4?v=1653564133179" controls="false" autoplay="true" loop="true">
+</video>
+      
+      
+      
+      <video 
+       id="video1" 
+       loop,
+       autoplay,
+       crossorigin="anonymous" 
+       style="display: none; position: absolute; left: 15px; top: 75px;"
+       type="video/mp4"
+       src="https://cdn.glitch.global/309d23f3-97b6-48d9-949a-fe537a9061ec/YouCut_20220616_001148684.mp4?v=1655322758616" controls="false" autoplay="true" loop="true">
+</video>
+      
+      
+      
+      
+      
+ <!--       <div id= "all_contents"> -->
+<!--       <header> -->
+<!--         <h1>Hanif Haghtalab</h1> -->
+<!--         <p>Projects</p> -->
+<!--       </header> -->
+
+<!--       <blockquote>
+        <p>The Portfolio is under development</p>
+      </blockquote> -->
+      
+       <section00 id="sec-1">
+
+         <h2><span aria-hidden="true">Generative Gallery</span>
+           Generative Gallery<span aria-hidden="true">Generative Gallery</span></h2>
+           
+        <h4>CryptoVoxel Workshop by Futurly</h4>
+         <p>
+           
+           
+         </p>
+        <p>
+          When the final goal is not defined as a form of physical construction,
+          the architect acts as a consultant who tries to offer suggestions in response 
+          to current demands.With this in mind,we stablished the process of design 
+          through generative methods instead of creating the final output.
+          Art galleries are almost like flat exhibition,so programmed minimal surfaces 
+          enable the client to shape the space freely with easy locating of control points and sizes as needed.
+          Considering that most of built environments are designed in cryptovoxel with rigid and inflexible boundaries and edges,our team 
+          decided to design a flexible sculptural structure.
+          
+          <strong>
+          <a class="link-style" href="https://www.cryptovoxels.com/spaces/d56f99a5-df95-45fc-8a41-fc9267616b73/play" target="_blank">More info</a>
+          </strong>
+        </p>
+        <a  href="#sec-2" class ="scroll-down arrow">
+<!--           <div ></div> -->
+        </a>
+      </section00>
+      
+      
+      
+      <section00 id="sec-2">
+
+        <h2><span aria-hidden="true">Distorted Reality</span>
+         Distorted Reality<span aria-hidden="true">Distorted Reality</span>
+          <h4>AmberNetworkFestival 2021 Berlin</h4></h2>
+    
+        <p>
+          For a long time, the boundary between reality and imagination, between what is in our minds and what we see before our eyes, was explicitly recognizable for us. And the means we used to recognize this boundary were our senses and perception. Gradually, the media became so powerful that could have created another world for us in which our senses were teased in different ways. The diverse mass media and simulated worlds have cast doubt on whether what we have known so far, is the true reality?
+We want to know how the mass media affect our understanding of reality and hasn't the reality been distorted from the very beginning? Here we break down all our perceptions of reality in order to make some space for the presence of reality itself by creating holes. we aim to find another reality behind our current hyper-reality. The reality that in itself is another hyper-reality because the media changes it in any case. Music:Omid Zolfaghari Visual:Hanif Haghtalab
+<!--           We want to know how the mass media affect our understanding of reality and hasn't the reality been distorted from the very beginning? 
+          Here we break down all our perceptions of reality in order to make some space for the presence of reality itself by creating holes.
+          we aim to find another reality behind our current hyper-reality. -->
+
+          
+          <strong>
+          <a class="link-style" href="https://vimeo.com/541644771" target="_blank">More info</a>
+          </strong>
+        </p>
+       <a  href="#sec-3" class ="scroll-down2 arrow">
+        </a>
+
+      </section00>
+      
+
+      
+      
+      <section00 id="sec-3">
+        
+        
+      <h2><span aria-hidden="true">Var Digital Mirrors</span>
+        Var Digital Mirrors<span aria-hidden="true">Var Digital Mirrors</span></h2>
+        <h4>p5.js 2020 Showcase</h4>
+      <p>
+       If we consider both clothing and architecture as an extension of our body .then, how can our body expand into the world wide web? how can digital facilities interpret our senses?
+       This project aims to explore the different ways of communication in the digital realm.
+       With variety of sensors and technologies which are invented around the world everyday,how can our brain develop and process data which is not come from our main senses?
+       With the help pf new technologies and hardwares like image processing ,sound analysis, infrared technology, depth cameras and AI how can we have better communications and share our thoughts more deeply between each other?
+        <strong>
+        <a class="link-style" href="https://connie-liu.me/p5.js-showcase/#/2020-All/project-42" target ="_blank">More info</a>
+        </strong>
+      </p>
+        <a  href="#sec-4" class ="scroll-down arrow"></a>
+
+      
+      </section00>
+      
+      
+      
+
+      
+       <section00 id="sec-4">
+         
+          <h2><span aria-hidden="true">Sang e Siah Hotel</span>
+        Sang e Siah Hotel<span aria-hidden="true">Sang e Siah Hotel</span></h2>
+          
+         <h4>Iran Shiraz</h4>
+        <p>
+         This project was defined with the aim of creating a traditional residence in the historical context of Shiraz, Sang-e-Siah neighborhood, 
+         between five National Registered Buildings from Ilkhani, Zandeih, Qajar and Pahlavi historical periods.
+         In recent years, contextual rehabilitation projects have been developed based on the demolition and aggregation strategies,
+         which gradually eliminate the proportions of void and mass,
+         the geometric and communication system of passages and the structure of a significant part of historical context by eradicating fine-grained structures and passages, creating large-scale projects and constructing streets.
+          <strong>
+          <a class="link-style" href ="https://www.archdaily.com/950514/sang-e-siah-boutique-hotel-stak-office?ad_source=search&ad_medium=projects_tab" target="_blank">More info</a>
+          </strong>
+        </p>
+         <a  href="#sec-5" class ="scroll-down2 arrow"></a>
+      </section00>
+
+      
+      <section00 id="sec-5" class="light">
+        <h2><span aria-hidden="true">Feather-Like Burqa</span>
+        Feather-Like Burqa<span aria-hidden="true">Feather-Like Burqa</span></h2>
+        <h4>DigitalFuture 2020</h4>
+        <p>
+          This was my project as the output of one week workshop'Bio Inspired Masks' by Behnaz Farahi.
+          The Burqa is a type of clothing worn by women in south of Iran and also Arabic countries.
+          There are many kinds of Burqa all around the Middle East.
+          Some of them are covored with lots of small and shiny components and those which are made
+          with specific textile changing their colors according to the direction of light inspired me the most.
+          Their components and changeable colors reminded me of similar patterns in feathers of birds and scales of fishes and snakes.
+          <strong>
+          <a class="link-style" href ="https://www.youtube.com/watch?v=1a2AbVt-L0U&t=79s" target ="_blank">More info</a>
+          </strong>
+           
+        </p>
+        <a  href="#sec-6" class ="scroll-down arrow"></a>
+        </section00>
+      
+      
+      
+      
+        <section00 id="sec-6">
+
+        <h2><span aria-hidden="true">MIRRORS</span>
+        MIRRORS<span aria-hidden="true">MIRRORS</span></h2>
+          <h4>Pirsook art gallery Shiraz</h4>
+        <p>
+          This project was a collaboration with Mohammad Amin Haghpanah inspired by mirror artworks in Architecture. 
+          This project tried to exhibit a new view of mutual experience between the audience and decoration elements through interactive installation.
+          <strong>
+          <a class="link-style" href="https://vimeo.com/534788635" target="_blank">More info</a>
+          </strong>
+          
+        </p>
+          <a  href="#sec-7" class ="scroll-down2 arrow"></a>
+      </section00>
+      
+      <section00 id="sec-7">
+
+        <h2><span aria-hidden="true">One Dimention Higher</span>
+        One Dimention Higher<span aria-hidden="true">One Dimention Higher</span></h2>
+        <h4> NODE Festival 2017 Frankfurt</h4>
+
+        <p>
+          Moqarnas is an architectural element that was achieved through extension of 2D patterns into 3rd dimention.
+          In the past,geometrical patters were created with compass and a ruler.
+          Drawing hexagonal grids with this method gave us a generative underlying algorithm that enables us to draw infinite arbitrary Moqarnases patterns.
+          AR technology would be a good way to study the potentials of geometrical patterns for expansion into higher dimentions.
+          <strong>
+          <a class="link-style" href="https://vimeo.com/628388752" target="_blank">More info</a>
+          </strong>
+          
+          
+        </p>
+        <a  href="#sec-1" class ="scroll-up arrow"></a>
+      </section00>
+
+
+<section00 id="sec-8">
+
+      <blockquote>
+        <p>Thanks for watching!</p>
+      </blockquote>
+<!--       <a  href="#sec-1" class ="scroll-down2 arrow"></a> -->
+      </section00>
+      
+
+
+
+    </main>
+<!--      </div> -->
+    
+    <script type="module" src="/script.js"></script>
+<!--      <script src="/script.js" defer type="module"></script>  -->
+<!--     <canvas id="loading"></canvas> -->
+        </div>
+  </body>
+    
+</html>
